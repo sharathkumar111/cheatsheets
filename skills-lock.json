@@ -8,6 +8,13 @@
       "skillPath": "journalism-core/skills/ai-writing-detox/SKILL.md",
       "computedHash": "c584e209faf4805bfb354299071b1f2d8cd1cfa3c2bd30afa5d103efe9492eae"
     },
+    "claude-md-improver": {
+      "source": "anthropics/claude-plugins-official",
+      "commit": "73c8cf3ea7e296057b467990f2f5d61b4c922260",
+      "sourceType": "github",
+      "skillPath": "plugins/claude-md-management/skills/claude-md-improver/SKILL.md",
+      "computedHash": "d6067bb87758243b6817ae021a0b72e409db8919cec22a4cdfc053cd5b269622"
+    },
     "data-journalism": {
       "source": "jamditis/claude-skills-journalism",
       "commit": "a6383bd0c4cb22cc04056875f4d50603489b003b",

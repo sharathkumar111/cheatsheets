@@ -322,6 +322,7 @@ skill isn't available, do the work directly and say so in `NOTES FOR DESK`.
 | Primary-source research written up as a Markdown note in the repo | `mattpocock-skills:research` | Primary sources only (§8.2). Background notes are not copy. |
 | Stress-testing a story angle, a coverage plan or a contested claim before filing | `mattpocock-skills:grilling` | Grill the correspondent's plan; never the subject of the story. |
 | Editing this AGENTS.md or writing new skills | `mattpocock-skills:writing-for-agents` | Changes to §12 still need the correspondent's confirmation. |
+| Auditing or improving this file (CLAUDE.md only imports AGENTS.md, so work on AGENTS.md) | `claude-md-improver` | Its quality criteria assume a code project (build commands, architecture). Judge this file on editorial clarity instead. Show the report and get approval before editing. |
 | Looking for a skill this file doesn't list | `find-skills` (`.agents/skills/find-skills`) | **Ask the correspondent before installing anything.** Ignore the skill's advice to install with `-y`. Prefer well-known sources, and never install a repository that copies another author's name. |
 
 The other Superpowers and Matt Pocock skills (test-driven development, git worktrees, code
