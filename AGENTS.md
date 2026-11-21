@@ -276,7 +276,7 @@ For every factual claim in a draft:
   what a speaker said.
 - Keep the original term in brackets where the translation is uncertain or the term itself
   matters, and explain the ambiguity in notes.
-- Label translated quotes (`… he said, according to an IANS translation` or as the correspondent
+- Label translated quotes (`… the minister said, according to an IANS translation` or as the correspondent
   prefers, see §12).
 - Summaries add nothing that isn't in the source, and they preserve conditions, hedges and
   attributions.
@@ -319,7 +319,6 @@ skill isn't available, do the work directly and say so in `NOTES FOR DESK`.
 | Several independent research or fact-check jobs at once (e.g. checking each country's readout) | `superpowers:dispatching-parallel-agents` | Give every agent this file's §1, §5 and §6 rules. |
 | Before calling any draft, fact-check or translation "done" | `superpowers:verification-before-completion` | Evidence for every ✅ (§8.2). Never claim something is verified without a source. |
 | Working out why an agent got something wrong, so the House Style Log can be updated | `superpowers:diagnosing-superpowers` | Then propose a §12 entry. |
-
 | Primary-source research written up as a Markdown note in the repo | `mattpocock-skills:research` | Primary sources only (§8.2). Background notes are not copy. |
 | Stress-testing a story angle, a coverage plan or a contested claim before filing | `mattpocock-skills:grilling` | Grill the correspondent's plan; never the subject of the story. |
 | Editing this AGENTS.md or writing new skills | `mattpocock-skills:writing-for-agents` | Changes to §12 still need the correspondent's confirmation. |
@@ -377,6 +376,8 @@ IANS has no stylebook that agents can consult, so **this log is how the house st
 - 2026-11-21 — Unnamed sources allowed, but each needs a meaningful description. Never invent or upgrade one.
 - 2026-11-21 — Binding codes: PCI Norms, IT Rules 2021 Code of Ethics and NBDSA Code, alongside Indian law.
 - 2026-11-21 — Output language: English.
+- 2026-11-21 — Git: always merge finished work into `main`. No review pull requests unless asked.
+- 2026-11-21 — Skills: AP-style and US/Brazil-law journalism skills stay uninstalled (§10). Ask before installing any skill.
 
 **Pending (ask on first use):**
 - Numbers: lakh/crore or million/billion? How to give currency equivalents (INR and/or USD)?
