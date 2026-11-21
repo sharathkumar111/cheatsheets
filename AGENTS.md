@@ -306,15 +306,13 @@ skill isn't available, do the work directly and say so in `NOTES FOR DESK`.
 | Checking a source, document, image, video or possible deepfake | `source-verification` | SIFT method plus an evidence trail. Add Indian official sources (§6) to its list of resources. |
 | Vetting social-media accounts, tracking viral claims or coordinated campaigns | `social-media-intelligence` | Especially for India–Pakistan and India–China information operations. Report findings with attribution; never call an account "fake" without evidence. |
 | Removing machine-sounding phrasing from a draft | `ai-writing-detox` | Run it after drafting. It must not change facts, quotes or attribution, or impose US spelling. |
-| Trade, remittance, budget or other data stories | `data-journalism` | Note FY versus calendar year (§7). **Any map must conform to Survey of India maps (§5)**, whatever the skill suggests. |
+| Trade, remittance, budget or other data stories; building tables | `data-journalism` (with the `xlsx` skill for spreadsheets) | Record the source dataset. Note FY versus calendar year (§7). |
 | Transcripts and pulling quotes from recorded interviews or briefings | `interview-transcription` | Quotes must be verbatim with timestamps. Label translated quotes (§8.4). |
 | Multi-source research, background briefs, comparing positions across countries | `deep-research` skill | Tell it to apply §1, §5 and §6. Insist on primary and official sources. |
-| Reading reports, joint statements, court judgments and official documents in PDF | `pdf` skill | Quote exact text and page numbers. |
+| Reading or translating PDFs: reports, joint statements, court judgments, foreign-language documents | `pdf` skill | Quote exact text and page numbers. Translation follows §8.4. |
 | Quick fact lookups or reading a specific page | Web search / web fetch | Prefer official domains (§8.2). |
-| Data from trade figures, remittances or budgets; building tables | `xlsx` skill | Record the source dataset and the year convention used. |
-| Charts for a story | `dataviz` skill | Label the source. Any map must meet the Survey of India rule (§5). |
+| Charts and maps for a story | `dataviz` skill | Label the source. **Any map, from any skill, must conform to Survey of India maps (§5).** |
 | A background note or explainer to share or keep | `docs` skill (or `docx` if a Word file is needed) | Not for wire copy itself, which stays plain text. |
-| Translating a long foreign-language report | `pdf` skill, plus the translation rules in §8.4 | A specialised translation plugin can help if installed (see below). |
 | Planning a story package, a series or a coverage plan (e.g. a summit or a state visit) | `superpowers:brainstorming`, then `superpowers:writing-plans` | Ask the correspondent the open questions first. Keep the Indian angle central. |
 | Several independent research or fact-check jobs at once (e.g. checking each country's readout) | `superpowers:dispatching-parallel-agents` | Give every agent this file's §1, §5 and §6 rules. |
 | Before calling any draft, fact-check or translation "done" | `superpowers:verification-before-completion` | Evidence for every ✅ (§8.2). Never claim something is verified without a source. |
@@ -324,6 +322,10 @@ skill isn't available, do the work directly and say so in `NOTES FOR DESK`.
 | Editing this AGENTS.md or writing new skills | `mattpocock-skills:writing-for-agents` | Changes to §12 still need the correspondent's confirmation. |
 | Auditing or improving this file (CLAUDE.md only imports AGENTS.md, so work on AGENTS.md) | `claude-md-improver` | Its quality criteria assume a code project (build commands, architecture). Judge this file on editorial clarity instead. Show the report and get approval before editing. |
 | Looking for a skill this file doesn't list | `find-skills` (`.agents/skills/find-skills`) | **Ask the correspondent before installing anything.** Ignore the skill's advice to install with `-y`. Prefer well-known sources, and never install a repository that copies another author's name. |
+
+The `superpowers:*` and `mattpocock-skills:*` skills come from plugins on the correspondent's
+account, not from this repo, so a fresh session may not have them. If one is missing, do the
+work directly. The other skills in the table are installed in `.agents/skills/`.
 
 The other Superpowers and Matt Pocock skills (test-driven development, git worktrees, code
 review, bug diagnosis, domain modelling) are for software work, such as the R cheatsheet
@@ -370,6 +372,9 @@ IANS has no stylebook that agents can consult, so **this log is how the house st
 3. Add the rule **only after the correspondent confirms it**, as a new dated line below.
    Never delete entries. If a rule changes, add a new entry that supersedes the old one.
 4. Read this log at the start of every session. It overrides your defaults (but not §1 levels 1–5).
+5. A hook (`.claude/hooks/capture-correction.sh`) flags messages that look like corrections.
+   When it fires, apply the correction, then propose the matching dated entry as a diff,
+   using `claude-md-improver`.
 
 **Confirmed:**
 - 2026-11-21 — Spelling and usage: UK English.
@@ -379,6 +384,7 @@ IANS has no stylebook that agents can consult, so **this log is how the house st
 - 2026-11-21 — Output language: English.
 - 2026-11-21 — Git: always merge finished work into `main`. No review pull requests unless asked.
 - 2026-11-21 — Skills: AP-style and US/Brazil-law journalism skills stay uninstalled (§10). Ask before installing any skill.
+- 2026-11-21 — Ask first: before writing anything new, ask the correspondent clarifying questions. Don't assume.
 
 **Pending (ask on first use):**
 - Numbers: lakh/crore or million/billion? How to give currency equivalents (INR and/or USD)?
