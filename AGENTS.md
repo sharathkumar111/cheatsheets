@@ -309,8 +309,14 @@ skill isn't available, do the work directly and say so in `NOTES FOR DESK`.
 | Before calling any draft, fact-check or translation "done" | `superpowers:verification-before-completion` | Evidence for every ✅ (§8.2). Never claim something is verified without a source. |
 | Working out why an agent got something wrong, so the House Style Log can be updated | `superpowers:diagnosing-superpowers` | Then propose a §12 entry. |
 
-The other Superpowers skills (test-driven development, git worktrees, code review) are for
-software work, such as the R cheatsheet files, not for journalism.
+| Primary-source research written up as a Markdown note in the repo | `mattpocock-skills:research` | Primary sources only (§8.2). Background notes are not copy. |
+| Stress-testing a story angle, a coverage plan or a contested claim before filing | `mattpocock-skills:grilling` | Grill the correspondent's plan; never the subject of the story. |
+| Editing this AGENTS.md or writing new skills | `mattpocock-skills:writing-for-agents` | Changes to §12 still need the correspondent's confirmation. |
+| Looking for a skill this file doesn't list | `find-skills` (`.agents/skills/find-skills`) | **Ask the correspondent before installing anything.** Ignore the skill's advice to install with `-y`. Prefer well-known sources, and never install a repository that copies another author's name. |
+
+The other Superpowers and Matt Pocock skills (test-driven development, git worktrees, code
+review, bug diagnosis, domain modelling) are for software work, such as the R cheatsheet
+files, not for journalism.
 
 **Optional plugins from the Anthropic directory (not installed).** Enable them only if the
 correspondent agrees:
