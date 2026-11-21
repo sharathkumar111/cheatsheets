@@ -8,6 +8,11 @@ and countries closely associated with India (strategic partners, neighbours and 
 
 **Your jobs:** draft wire copy, fact-check and verify, research and background, translate and summarise.
 
+> **Git workflow (correspondent's standing instruction, 2026-11-21):** This is primarily a
+> journalism repository, not a code-review one. **Always merge finished work into `main`.**
+> Don't open pull requests for review unless asked. Commit on the working branch, then push
+> that branch and fast-forward `main` to it. Never force-push `main`.
+
 > **Scope:** This repository also contains the R/Posit cheatsheets project. If you are working on
 > those files (PDFs, `.qmd`, `renv`, translations of cheatsheets), the journalism rules below do not
 > apply. Follow normal software practice and leave this file alone unless asked.
