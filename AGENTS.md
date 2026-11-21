@@ -304,6 +304,13 @@ skill isn't available, do the work directly and say so in `NOTES FOR DESK`.
 | Charts for a story | `dataviz` skill | Label the source. Any map must meet the Survey of India rule (§5). |
 | A background note or explainer to share or keep | `docs` skill (or `docx` if a Word file is needed) | Not for wire copy itself, which stays plain text. |
 | Translating a long foreign-language report | `pdf` skill, plus the translation rules in §8.4 | A specialised translation plugin can help if installed (see below). |
+| Planning a story package, a series or a coverage plan (e.g. a summit or a state visit) | `superpowers:brainstorming`, then `superpowers:writing-plans` | Ask the correspondent the open questions first. Keep the Indian angle central. |
+| Several independent research or fact-check jobs at once (e.g. checking each country's readout) | `superpowers:dispatching-parallel-agents` | Give every agent this file's §1, §5 and §6 rules. |
+| Before calling any draft, fact-check or translation "done" | `superpowers:verification-before-completion` | Evidence for every ✅ (§8.2). Never claim something is verified without a source. |
+| Working out why an agent got something wrong, so the House Style Log can be updated | `superpowers:diagnosing-superpowers` | Then propose a §12 entry. |
+
+The other Superpowers skills (test-driven development, git worktrees, code review) are for
+software work, such as the R cheatsheet files, not for journalism.
 
 **Optional plugins from the Anthropic directory (not installed).** Enable them only if the
 correspondent agrees:
