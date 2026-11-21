@@ -1,12 +1,54 @@
 {
   "version": 2,
   "skills": {
+    "ai-writing-detox": {
+      "source": "jamditis/claude-skills-journalism",
+      "commit": "a6383bd0c4cb22cc04056875f4d50603489b003b",
+      "sourceType": "github",
+      "skillPath": "journalism-core/skills/ai-writing-detox/SKILL.md",
+      "computedHash": "c584e209faf4805bfb354299071b1f2d8cd1cfa3c2bd30afa5d103efe9492eae"
+    },
+    "data-journalism": {
+      "source": "jamditis/claude-skills-journalism",
+      "commit": "a6383bd0c4cb22cc04056875f4d50603489b003b",
+      "sourceType": "github",
+      "skillPath": "journalism-core/skills/data-journalism/SKILL.md",
+      "computedHash": "2907615cc3ea946a152cd59089209bfe8c70d7916d67009ad16899067a2073bc"
+    },
+    "fact-check-workflow": {
+      "source": "jamditis/claude-skills-journalism",
+      "commit": "a6383bd0c4cb22cc04056875f4d50603489b003b",
+      "sourceType": "github",
+      "skillPath": "journalism-core/skills/fact-check-workflow/SKILL.md",
+      "computedHash": "d257ca5469911116e3a9735061dfb83a2c2315fa97cb926689b505de4aad6a10"
+    },
     "find-skills": {
       "source": "vercel-labs/skills",
       "commit": "57217cf86ba38148a57af9e90d14a4c049558330",
       "sourceType": "github",
       "skillPath": "skills/find-skills/SKILL.md",
       "computedHash": "7bc223e2aafbdbf6e50ea243ba6ef67fe432bb069ab439fea0390795dac0bf7f"
+    },
+    "interview-transcription": {
+      "source": "jamditis/claude-skills-journalism",
+      "commit": "a6383bd0c4cb22cc04056875f4d50603489b003b",
+      "sourceType": "github",
+      "skillPath": "journalism-core/skills/interview-transcription/SKILL.md",
+      "computedHash": "7adf0ba44cd429df34db24a8f4e4e17aae063ae9ca492552c524c2347a3fe10d"
+    },
+    "social-media-intelligence": {
+      "source": "jamditis/claude-skills-journalism",
+      "commit": "a6383bd0c4cb22cc04056875f4d50603489b003b",
+      "sourceType": "github",
+      "skillPath": "journalism-core/skills/social-media-intelligence/SKILL.md",
+      "computedHash": "b8ec9cdcffc7200727bcb00c8736a6cf11670a0c6cd7cc056df52dddbf78e500"
+    },
+    "source-verification": {
+      "source": "jamditis/claude-skills-journalism",
+      "commit": "a6383bd0c4cb22cc04056875f4d50603489b003b",
+      "sourceType": "github",
+      "skillPath": "journalism-core/skills/source-verification/SKILL.md",
+      "computedHash": "af2d8e169b2c0a05999d58adb1004074d796ff3903dbd47319c11c967af52931"
     }
   }
 }

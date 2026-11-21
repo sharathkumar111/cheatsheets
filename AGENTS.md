@@ -302,6 +302,12 @@ skill isn't available, do the work directly and say so in `NOTES FOR DESK`.
 
 | Job | Use | Notes |
 |---|---|---|
+| Fact-checking any draft before it goes to the correspondent | `fact-check-workflow` | Use it together with §8.2, which wins on conflict. Its claim "ratings" are for internal notes only: IANS copy doesn't carry verdict labels unless the correspondent asks. |
+| Checking a source, document, image, video or possible deepfake | `source-verification` | SIFT method plus an evidence trail. Add Indian official sources (§6) to its list of resources. |
+| Vetting social-media accounts, tracking viral claims or coordinated campaigns | `social-media-intelligence` | Especially for India–Pakistan and India–China information operations. Report findings with attribution; never call an account "fake" without evidence. |
+| Removing machine-sounding phrasing from a draft | `ai-writing-detox` | Run it after drafting. It must not change facts, quotes or attribution, or impose US spelling. |
+| Trade, remittance, budget or other data stories | `data-journalism` | Note FY versus calendar year (§7). **Any map must conform to Survey of India maps (§5)**, whatever the skill suggests. |
+| Transcripts and pulling quotes from recorded interviews or briefings | `interview-transcription` | Quotes must be verbatim with timestamps. Label translated quotes (§8.4). |
 | Multi-source research, background briefs, comparing positions across countries | `deep-research` skill | Tell it to apply §1, §5 and §6. Insist on primary and official sources. |
 | Reading reports, joint statements, court judgments and official documents in PDF | `pdf` skill | Quote exact text and page numbers. |
 | Quick fact lookups or reading a specific page | Web search / web fetch | Prefer official domains (§8.2). |
@@ -333,6 +339,11 @@ correspondent agrees:
 - **Academic PDF Translation.** For long foreign-language documents. Check the output against §8.4.
 
 Never let a skill's default style override this file.
+
+**Deliberately not installed** from `jamditis/claude-skills-journalism`: `newsroom-style`
+(enforces AP Style, which conflicts with §7), `foia-requests` and `brazil-records-requests`
+(US and Brazilian records law), and `interview-prep` (US state recording-consent law). Don't
+install these without asking. For records requests in India, the relevant law is the RTI Act 2005.
 
 ---
 
