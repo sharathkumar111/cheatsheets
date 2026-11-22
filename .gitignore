@@ -9,3 +9,4 @@ rsconnect/
 /.quarto/
 _site
 .Rbuildignore
+__pycache__/
